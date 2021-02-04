@@ -1,0 +1,231 @@
+/* Подключение шрифтов из гугл фонтс */
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P:regular&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Creepster:regular&display=swap");
+
+@font-face {
+	font-family: "SF Pixelate Shaded";
+	src: url("../fonts/SFPixelateShaded.woff2") format("woff2"), url("../fonts/SFPixelateShaded.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Hardpixel";
+	src: url("../fonts/Hardpixel.woff2") format("woff2"), url("../fonts/Hardpixel.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Обнуляем стили */
+/* Обращаемся ко всему с помощью "*" */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+/* ТОчки стиля списков */
+li {
+	list-style: none;
+}
+/* Ссылки */
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+/* Заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+/* Фантомный отступ у картинок */
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 100%;
+	color: #000;
+	font-family: Montserrat;
+	font-weight: 600;
+	background-color: rgba(126, 252, 0, 0.5);
+}
+/* LESSON 5 */
+/* MY HOMEWORK */
+
+.header {
+	background-color: teal;
+	padding: 50px 50px 50px 50px;
+	margin: 50px;
+}
+.cyr {
+	font-family: Hardpixel, serif;
+	margin: 30px;
+}
+.cyr.end {
+	font-size: 20px;
+	letter-spacing: 5px;
+	line-height: 200%;
+}
+/* .lat {
+	font-family: SFPixelateShaded;
+} */
+.lat {
+	font-family: Creepster;
+}
+.big {
+	font-size: 30px;
+	text-align: center;
+	line-height: 200%;
+	margin: 2px;
+}
+h1 {
+	padding: 50px;
+	font-size: 100px;
+	color: red;
+	letter-spacing: 2px;
+	text-align: center;
+	text-shadow: 0px 10px 2px #000, 0px 20px 2px darkslategray, 0px 30px 2px gray, 0px 40px 2px lightslategray,
+		0px 50px 2px lightgray, 0px 60px 2px whitesmoke, 0px 70px 2px white;
+}
+.menu {
+	background: turquoise;
+	line-height: 500%;
+	margin: 50px;
+	padding: 10px;
+}
+p.cyr {
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 20px;
+	text-shadow: 0px 5px 5px rgb(251, 255, 0);
+}
+img {
+	/* как отцентровать? */
+	width: 250px;
+	background-color: lime;
+	padding: 10px;
+}
+
+main {
+	margin: 50px;
+}
+.ddd {
+	width: 100%;
+	height: 200px;
+}
+.over {
+	margin: -30px 0px 10px 0px;
+	font-size: 40px;
+	line-height: 50%;
+	color: purple;
+	text-shadow: 0px -5px 5px rgb(251, 255, 0);
+	text-align: center;
+	text-transform: uppercase;
+}
+.fw100 {
+	font-weight: 100;
+}
+.fw200 {
+	font-weight: 200;
+}
+.fw300 {
+	font-weight: 300;
+}
+.fw400 {
+	font-weight: 400;
+}
+.fw500 {
+	font-weight: 500;
+}
+.fw600 {
+	font-weight: 600;
+}
+.fw700 {
+	font-weight: 700;
+}
+.fw800 {
+	font-weight: 800;
+}
+.fw900 {
+	font-weight: 900;
+}
+/* как это сделать проще ? то что всерху */
+.maxwidth {
+	background-color: pink;
+	max-width: 500px;
+}
+.maxwidth img {
+	background-color: mediumpurple;
+	max-width: 150px;
+}
+.minwidth {
+	background-color: mediumpurple;
+	min-width: 1000px;
+}
+.minwidth img {
+	background-color: pink;
+	min-width: 500px;
+}
+.maxheight {
+	background-color: yellow;
+	max-height: 150px;
+}
+.maxheight img {
+	background-color: white;
+	max-height: 100px;
+}
+.minheight {
+	background-color: white;
+	min-height: 550px;
+}
+.minheight img {
+	background-color: yellow;
+	min-height: 400px;
+}
+.overflow {
+	background-color: rgb(177, 75, 177);
+	max-height: 200px;
+	overflow: auto;
+}
+h3 {
+	background-color: red;
+	text-shadow: 10px -1px 5px rgb(255, 255, 255);
+}
+.images {
+	max-width: 100%;
+	/* придумать как реализовать */
+	background-color: #fff;
+}
+.display {
+	background-color: olivedrab;
+}
+.discolor {
+	background-color: orange;
+	display: block;
+	margin: 50px;
+}
+.inline {
+	background-color: blue;
+	display: inline;
+	margin: 50px;
+}
+footer {
+	background-color: teal;
+	padding: 50px 50px 50px 900px;
+	margin: 50px;
+}
